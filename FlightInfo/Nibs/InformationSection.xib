@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationSection" customModule="FlightInfo" customModuleProvider="target">
+            <connections>
+                <outlet property="customView" destination="iN0-l3-epB" id="CoT-jq-1vQ"/>
+                <outlet property="date" destination="UpV-GX-OFk" id="sPP-WV-hbH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18.10.2012" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpV-GX-OFk" customClass="AnimatableLabel" customModule="IBAnimatable">
+                    <rect key="frame" x="123" y="2" width="128" height="26"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.96851021049999997" green="0.96861487629999998" blue="0.97259420159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="14"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UpV-GX-OFk" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-2" id="0eP-fB-yM6"/>
+                <constraint firstItem="UpV-GX-OFk" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="123" id="LqR-qG-UqP"/>
+                <constraint firstItem="UpV-GX-OFk" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="dza-ky-xu0"/>
+                <constraint firstItem="UpV-GX-OFk" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-124" id="zyh-jv-zWU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="62.5" y="741"/>
+        </view>
+    </objects>
+</document>
