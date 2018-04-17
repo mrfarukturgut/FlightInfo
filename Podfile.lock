@@ -1,0 +1,21 @@
+PODS:
+  - IBAnimatable (5.0.0)
+  - Kanna (4.0.0)
+  - SwiftSoup (1.6.2)
+  - VerticalAlignmentLabel (0.1.0)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - Kanna (~> 4.0.0)
+  - SwiftSoup
+  - VerticalAlignmentLabel
+
+SPEC CHECKSUMS:
+  IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  SwiftSoup: 390f651d9d3937c538e41219a98e5d6658a4405f
+  VerticalAlignmentLabel: 8a13ee9970aa38868aa40fece249dbc2a9df59ed
+
+PODFILE CHECKSUM: 3d034801ed48a28424cd005f28a8ba79f14007cb
+
+COCOAPODS: 1.4.0
